@@ -1,0 +1,223 @@
+simple:
+
+    primary-color: "#c7845f"  #Change
+    accent-color: "#dec187"  #Change  
+
+    modes:
+        light: 
+            text: color-mix(in srgb,var(--primary-color),#000 90%)
+            text-darker: color-mix(in srgb,var(--primary-color),#000 70%)
+
+            primary: var(--primary-color)
+            primary-darker: color-mix(in srgb,var(--primary),#000 10%)
+            primary-darkest: color-mix(in srgb,var(--primary),#000 20%)
+
+            base: color-mix(in srgb,var(--primary-color),#fff 50%)
+            base-darker: color-mix(in srgb,var(--primary-color),#fff 70%)
+            base-darkest: color-mix(in srgb,var(--primary-color),#fff 80%)
+            mush-rgb-disabled: 189, 189, 189
+            icon-light: color-mix(in srgb,var(--primary-color),#fff 40%)
+        dark:
+            text: color-mix(in srgb,var(--primary-color),#fff 90%)
+            text-darker: color-mix(in srgb,var(--primary-color),#fff 70%)
+
+            primary: var(--primary-color)
+            primary-darker: color-mix(in srgb,var(--primary),#000 10%)
+            primary-darkest: color-mix(in srgb,var(--primary),#000 20%)
+
+            base: color-mix(in srgb,var(--primary-color),#000 70%)
+            base-darker: color-mix(in srgb,var(--primary-color),#000 80%)
+            base-darkest: color-mix(in srgb,var(--primary-color),#000 90%)
+            mush-rgb-disabled: 111, 111, 111
+            icon-light: color-mix(in srgb,var(--primary-color),#fff 50%)
+
+
+    red-color: color-mix(in srgb,var(--primary-color),#f00 30%)
+    green-color: color-mix(in srgb,var(--primary-color),#0f0 30%)
+    yellow-color: color-mix(in srgb,var(--primary-color),#ff0 30%)
+    blue-color: color-mix(in srgb,var(--primary-color),#00f 30%)
+
+    # Mushroom styling
+    mush-spacing: 10px
+    ha-badge-border-radius: 7px
+
+    # #Icons (overwrite)
+    # icon-primary-color: var(--icon-light)
+
+    # Text
+    primary-text-color: var(--text)
+    secondary-text-color: var(--text-darker)
+    text-primary-color: var(--text)
+
+    # Cards
+    card-background-color: var(--base-darker)
+    ha-card-background: var(--card-background-color)
+    mush-card-primary-color: var(--primary-text-color)
+    mush-card-secondary-color: var(--primary-text-color)
+    ha-card-box-shadow: none
+    paper-dialog-background-color: var(--card-background-color)
+    paper-listbox-background-color: var(--card-background-color)
+    paper-card-background-color: var(--card-background-color)
+
+    # Main Interface colors
+    light-primary-color: var(--primary-darker)
+
+    lovelace-background: var(--base-darkest)
+    primary-background-color: var(--base-darkest)
+    secondary-background-color: var(--base-darker)
+
+    # Header
+    app-header-background-color: var(--base-darker)
+    app-header-text-color: var(--text)
+
+    # Sidebar
+    sidebar-background-color: var(--app-header-background-color)
+    sidebar-selected-background-color: var(--base)
+
+    sidebar-icon-color: var(--text-darker)
+    sidebar-text-color: var(--text-darker)
+    sidebar-selected-icon-color: var(--primary-darkest)
+    sidebar-selected-text-color: var(--text)
+
+    # Media
+    rgb-state-media-player: var(--accent-color)
+
+    divider-color: var(--base)
+    disabled-text-color: var(--base)
+    text-accent-color: var(--base)
+        
+    # Title
+    mush-title-color: var(--primary-text-color)
+    mush-subtitle-color: var(--secondary-text-color);
+
+    # Buttons
+    paper-item-icon-color: var(--primary-darker)
+    paper-item-icon-active-color: var(--accent-color)
+
+    # States and Badges
+    state-icon-color: var(--paper-item-icon-color)
+    state-icon-active-color: var(--paper-item-icon-active-color)
+    state-icon-unavailable-color: var(--disabled-text-color)
+    state-light-active-color: var-paper-item-icon-color)
+    state-light-color: var(--accent-color)
+
+    # Chip
+    mush-chip-border-color: var(--divider-color)
+    mush-chip-box-shadow: var(none)
+    mush-chip-background: var(--ha-card-background)
+
+    # Sliders
+    paper-slider-knob-color: var(--accent-color)
+    paper-slider-knob-start-color: var(--paper-slider-knob-color)
+    paper-slider-pin-color: var(--paper-slider-knob-color)
+    paper-slider-active-color: var(--paper-slider-knob-color)
+    paper-slider-secondary-color: var(--base)
+    slider-color: rgb(var(--accent-color))
+    slider-bg-color: var(--accent-color)
+    mush-rgb-state-light: var(--accent-color) 
+    
+
+    # Labels
+    label-badge-background-color: var(--base)
+    label-badge-text-color: var(--text)
+    label-badge-red: var(--red-color)
+    label-badge-green: var(--green-color)
+    label-badge-blue: var(--blue-color)
+    label-badge-yellow: var(--yellow-color)
+    label-badge-gray: var(--base)
+
+    # Switches
+    switch-checked-button-color: var(--paper-item-icon-active-color)
+    switch-checked-track-color: var(--base)
+    switch-unchecked-button-color: rgb(--paper-item-icon-color)
+    switch-unchecked-track-color: rgb(--base)
+    # Toggles
+    paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
+    paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
+    paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
+    paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
+
+    # Table
+    table-row-background-color: var(--primary-background-color)
+    table-row-alternative-background-color: var(--secondary-background-color)
+    data-table-background-color: var(--primary-background-color)
+    mdc-checkbox-unchecked-color: var(--base)
+
+    # Dropdowns
+    material-background-color: var(--primary-background-color)
+    material-secondary-background-color: var(--primary-background-color)
+    mdc-theme-surface: var(--secondary-background-color)
+
+    # Pre/Code
+    markdown-code-background-color: var(--base)
+
+    # Checkboxes
+    mdc-select-fill-color: var(--base)
+    mdc-select-ink-color: var(--primary-text-color)
+    mdc-select-label-ink-color: var(--secondary-text-color)
+    mdc-select-idle-line-color: var(--primary-text-color)
+    mdc-select-dropdown-icon-color: var(--secondary-text-color)
+    mdc-select-hover-line-color: var(--accent-color)
+
+    # Input
+    input-fill-color: var(--secondary-background-color)
+    input-dropdown-icon-color: var(--secondary-text-color)
+    input-ink-color: var(--primary-text-color)
+    input-label-ink-color: var(--secondary-text-color)
+    input-idle-line-color: var(--primary-text-color)
+    input-hover-line-color: var(--accent-color)
+    input-disabled-ink-color: var(--disabled-text-color)
+    input-disabled-line-color: var(--disabled-text-color)
+    input-outlined-idle-border-color: var(--disabled-text-color)
+    input-outlined-hover-border-color: var(--disabled-text-color)
+    input-outlined-disabled-border-color: var(--disabled-text-color)
+    input-disabled-fill-color: rgba(0, 0, 0, 0)
+
+    # Toast
+    paper-toast-background-color: var(--base)
+
+    # Modes
+    mush-rgb-info:  var(--label-badge-blue)
+    mush-rgb-success: var(--label-badge-green)
+    mush-rgb-warning: var(--label-badge-yellow)
+    mush-rgb-danger: var(--label-badge-red)
+    
+    error-color: var(--mush-rgb-danger)
+    warning-color: var(--mush-rgb-warning)
+    success-color: var(--mush-rgb-success)
+    info-color: var(--mush-rgb-info)
+
+    # Fan
+    mush-rgb-state-fan: var(--label-badge-green)
+    mush-rgb-state-light: var(--label-badge-yellow)
+    mush-rgb-state-entity: var(--label-badge-blue)
+    mush-rgb-state-switch: var(--label-badge-blue)
+
+    # Alarm
+    mush-rgb-state-alarm-disarmed: var(--mush-rgb-info)
+    mush-rgb-state-alarm-armed: var(--label-badge-green)
+    mush-rgb-state-alarm-triggered: var(--mush-rgb-danger)
+
+    # Person 
+    mush-rgb-state-person-home: var(--mush-rgb-success)
+    mush-rgb-state-person-not-home: var(--mush-rgb-danger)
+    mush-rgb-state-person-zone: var(--mush-rgb-info)
+    mush-rgb-state-person-unknown: var(--mush-rgb-info)
+
+    # Cover 
+    mush-rgb-state-cover-open: var(--label-badge-blue)
+    mush-rgb-state-cover-closed: var(--mush-rgb-disabled)
+
+    # Climate
+    mush-rgb-state-climate-auto: var(--label-badge-green)
+    mush-rgb-state-climate-cool: var(--label-badge-blue)
+    mush-rgb-state-climate-dry: var(--label-badge-yellow)
+    mush-rgb-state-climate-fan-only: var(--label-badge-blue)
+    mush-rgb-state-climate-heat: var(--label-badge-red)
+    mush-rgb-state-climate-heat-cool: var(--label-badge-blue)
+    mush-rgb-state-climate-idle: var(--text)
+    mush-rgb-state-climate-off: var(--mush-rgb-info)
+
+    # Colors
+    state-on-color: var(--mush-rgb-success)
+    state-off-color: var(--mush-rgb-danger)

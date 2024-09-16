@@ -1,0 +1,21 @@
+card_mod:
+      style: |
+        .bottom {
+        padding: 0 !important;
+        margin: 10px !important;
+        }
+        ha-card:not(.image) .container::before {
+            opacity: 0.05;
+        }
+        .container {
+            background: #0000 !important;
+        }
+        .name, .sensor {
+            color: var(--text) !important;
+        }
+        .name {
+            max-width: min-content;
+        }
+        .buttons {
+            min-width: fit-content
+        }
