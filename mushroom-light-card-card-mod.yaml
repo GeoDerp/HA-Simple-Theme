@@ -1,0 +1,5 @@
+card_mod:
+  style: |
+    mushroom-light-brightness-control {
+      --slider-color: var(--accent-color);
+    }
