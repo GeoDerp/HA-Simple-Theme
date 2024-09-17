@@ -8,8 +8,9 @@
 *Default color scheme:*
 </br>
 
-- **Primary Color:** `#c7845f` <span style="color: transparent; text-shadow: 0 0 0 #c7845f;">⬜</span>
-- **Accent Color:** `#dec187` <span style="color: transparent; text-shadow: 0 0 0 #dec187;">⬜</span>
+
+- **Primary Color:** `#c7845f` $${\color{#c7845f}■}$$
+- **Accent Color:** `#dec187` $${\color{#dec187}■}$$
 
 
 **Dark Mode**
@@ -21,8 +22,8 @@
 *Example of a user edited color scheme*
 </br>
 
-- **Primary Color:** `#207336` <span style="color: transparent; text-shadow: 0 0 0 #207336;">⬜</span>
-- **Accent Color:** `#f09b51` <span style="color: transparent; text-shadow: 0 0 0 #f09b51;">⬜</span>
+- **Primary Color:** `#207336` $${\color{#207336}■}$$
+- **Accent Color:** `#f09b51` $${\color{#f09b51}■}$$
 
 **Dark Mode**
 ![simple-theme-2-dark](/img/simple-theme-2-dark.png)
