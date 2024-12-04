@@ -189,7 +189,6 @@ simple:
 
     # Fan
     mush-rgb-state-fan: var(--label-badge-green)
-    mush-rgb-state-light: var(--label-badge-yellow)
     mush-rgb-state-entity: var(--label-badge-blue)
     mush-rgb-state-switch: var(--label-badge-blue)
 
